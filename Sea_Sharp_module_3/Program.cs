@@ -183,7 +183,7 @@ namespace Home_Work_exercise_4
         }
     public string GetInfo()
         {
-            return string.Format("Название разработки: , Ф.И.О. :", name, developer);
+            return string.Format(name, developer);
         }
     }
 }
