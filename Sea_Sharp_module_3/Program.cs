@@ -89,7 +89,7 @@
 
 namespace Home_Work_exercise_4
 {
-    class TestPerson
+    class Program
     {
         static void Main(string[] ars)
         {
