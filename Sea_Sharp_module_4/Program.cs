@@ -323,10 +323,10 @@ namespace CyberForum
         static void Main(string[] args)
         {
             string startText;
+            //int Morse;
             //Console.WriteLine("Введите текст для перевода в азбуку Морзе:");
             startText = Console.ReadLine();
             startText = Morse.ConverToMorse.TextToMorse(startText);
-
             //Console.WriteLine();
             //Console.WriteLine("Введите текст для перевода: ");
             //int morse = int.Parse(Console.ReadLine());
