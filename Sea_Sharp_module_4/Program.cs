@@ -316,7 +316,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CyberForum
+namespace Home_Work_exercise_3
 {
     class Program
     {
@@ -381,7 +381,7 @@ namespace CyberForum
 
 //using System.Text;
 
-//namespace Classwork16_09Task2
+//namespace Home_Work_exercise_3
 //{
 //    internal class Program
 //    {
