@@ -313,33 +313,51 @@
 
 
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Home_Work_exercise_3
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
             string startText;
-            //int Morse;
-            //Console.WriteLine("Введите текст для перевода в азбуку Морзе:");
+            Console.WriteLine("Введите текст для перевода в азбуку Морзе:");
             startText = Console.ReadLine();
+
             startText = Morse.ConverToMorse.TextToMorse(startText);
-            //Console.WriteLine();
-            //Console.WriteLine("Введите текст для перевода: ");
-            //int morse = int.Parse(Console.ReadLine());
-            int qtySymbols = int.Parse(Console.ReadLine());
-            // какое-то слово (только буквы)
-            string hello = "helloworld";
-
-            // перевели слово в Морзе
-
-
-            // перевели из Морзе в слово
-            Console.WriteLine(FromMorse(morse));
+            Console.WriteLine("Текст в виде азбуки Морзе:\t{0}" + startText);
         }
+    }
+}
+namespace Morse
+{
+    class ConverToMorse
+    {
+        //public static string ConverToMorse.TextToMorse(string alphaText);
+        //{
+        //string startText;
+        //int Morse;
+        //Console.WriteLine("Введите текст для перевода в азбуку Морзе:");
+        //startText = Console.ReadLine();
+
+        //Console.WriteLine(FromMorse);
+        //startText = FromMorse.ConverToMorse.TextToMorse(startText);
+        //Console.WriteLine();
+        //Console.WriteLine("Введите текст для перевода: ");
+        //int morse = int.Parse(Console.ReadLine());
+        //int qtySymbols = int.Parse(Console.ReadLine());
+        // какое-то слово (только буквы)
+        //string hello = "helloworld";
+
+        // перевели слово в Морзе
+
+
+        // перевели из Морзе в слово
+        //Console.WriteLine(FromMorse);
+
         // словарь Морзе-Буква
         public static Dictionary<string, string> MorseToAbc = new Dictionary<string, string>()
         {
@@ -356,6 +374,7 @@ namespace Home_Work_exercise_3
         // перевод текста в Морзе
         static string ToMorse(string input)
         {
+
             input = input.ToUpper();
             string[] encoded = new string[input.Length];
             for (int i = 0; i < input.Length; i++)
