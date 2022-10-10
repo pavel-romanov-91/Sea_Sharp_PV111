@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sea_Sharp_module_6", "Sea_S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sea_Sharp_module_3", "Sea_Sharp_module_3\Sea_Sharp_module_3.csproj", "{D0CDC290-AFB7-4C61-9CF0-EF762196B029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sea_Sharp_module_4", "Sea_Sharp_module_4\Sea_Sharp_module_4.csproj", "{22831E6A-7392-4919-BCB6-062BC065E699}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sea_Sharp_module_4", "Sea_Sharp_module_4\Sea_Sharp_module_4.csproj", "{22831E6A-7392-4919-BCB6-062BC065E699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sea_Sharp_module_5", "Sea_Sharp_module_5\Sea_Sharp_module_5.csproj", "{54EA3E02-082D-47D9-91D3-0AE5B1A7C503}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{22831E6A-7392-4919-BCB6-062BC065E699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22831E6A-7392-4919-BCB6-062BC065E699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22831E6A-7392-4919-BCB6-062BC065E699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EA3E02-082D-47D9-91D3-0AE5B1A7C503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EA3E02-082D-47D9-91D3-0AE5B1A7C503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54EA3E02-082D-47D9-91D3-0AE5B1A7C503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EA3E02-082D-47D9-91D3-0AE5B1A7C503}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
