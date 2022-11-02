@@ -21,8 +21,8 @@ namespace Home_Work_exercise_2
             store.Square -= newstoreneam;
             store.GetShopInfo();
             Console.WriteLine(store == store2);
-            Shop shop3 = new Shop("", "", "", "", "", 0);
-            shop3.AddShop(shop3);
+            Shop shop3 = new Shop("ОЗОН ", " г. Москва ул. Ленина 143 ", "Онлайн продажи ", " +7-928-168-28-62 ", "OZON.ru", 54);
+            shop = shop3.AddShop(shop3);
             shop3.GetShopInfo();
 
         }
@@ -117,6 +117,7 @@ namespace Home_Work_exercise_2
             string? mail = Console.ReadLine();
             Console.Write("Введите площадь магазина:");
             int area = Int32.Parse(Console.ReadLine());
+            shop = new Shop(name, address, description, telephone, mail, area);
             return shop;
         }
         public override string ToString()
