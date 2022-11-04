@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sea_Sharp_module_8", "Sea_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examination_Task", "Examination_Task\Examination_Task.csproj", "{7CC6F5F9-9BCE-4352-A325-783D216C83A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sea_Sharp_module_9", "Sea_Sharp_module_9\Sea_Sharp_module_9.csproj", "{C6CB5DF6-FEAB-4340-B91A-327235D9F489}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{7CC6F5F9-9BCE-4352-A325-783D216C83A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CC6F5F9-9BCE-4352-A325-783D216C83A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CC6F5F9-9BCE-4352-A325-783D216C83A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CB5DF6-FEAB-4340-B91A-327235D9F489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CB5DF6-FEAB-4340-B91A-327235D9F489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CB5DF6-FEAB-4340-B91A-327235D9F489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CB5DF6-FEAB-4340-B91A-327235D9F489}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
