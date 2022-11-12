@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6CB5DF6-FEAB-4340-B91A-327235D9F489}</ProjectGuid>
+    <ProjectGuid>{5CDD9B81-A69D-45B0-9819-C518F15A1B00}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Sea_Sharp_module_9</RootNamespace>
     <AssemblyName>Sea_Sharp_module_9</AssemblyName>
